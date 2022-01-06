@@ -11,7 +11,7 @@ export default function Education() {
             <hr size="5" width="100%" color="blueviolet"></hr>
             <br></br>
             <br></br>
-            <span className="infoTitle">Educational Information</span>
+            <span className="infoTitle">Educational Informations</span>
             <br></br>
             <div className="container">
             <div className='project'>
