@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.container{
+    box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.2);
+    background: rgb(239, 228, 255);
+    max-width: 1200px;
+}
+
+.date{
+    margin-top: 30px;
+}
+
+.project{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.h1-img{
+   width: 80%;
+    align-items: center;
+    object-fit: cover;
+    position: static;
+}
+.title{
+    font-weight: bold;
+    font-family: 'Kanit';
+    font-size: 26pt;
+    color: #59b256;
+}
+
+.subtitle{
+    font-weight: normal;
+    font-family: 'Kanit';
+    font-size: 18px;
+    color: #59b256;
+}
+
+.content{
+    font-family: 'Kanit';
+}

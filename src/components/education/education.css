@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.timeline-container{
+    font-family: 'Kanit';
+    max-width: 800px;
+    margin: 0 auto;
+    border-left: 4px solid blueviolet;
+    padding-left: 25px;
+}
+
+.timeline-container h2 {
+    font-family: 'Kanit';
+    font-size: 32px;
+    margin: 0;
+    color:#59b256;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.timeline-container .event {
+    box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.2);
+    padding: 32px;
+    margin: 48px 0;
+    line-height: 2;
+    cursor: pointer;
+    position: relative;
+    transition: all 500ms;
+    background: rgb(239, 228, 255);
+    z-index: 900;
+}
+
+.timeline-container .event::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    left: -36px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff ;
+    transition: all 500ms;
+}
+
+.timeline-container .event:hover {
+    box-shadow: 1px 6px 16px -1px rgba(0,0,0,0.1);
+    
+}
+
+.timeline-container .event:hover::before{
+    background: red;
+}
+
+.timeline-container .event .event-date {
+    position: absolute;
+    left: -95px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+  }
+  
+  @media (max-width: 700px) {
+    .timeline-container {
+      max-width: 100%;
+      margin-left: 8px;
+    }
+  
+    .timeline-container .event .event-date {
+      position: static;
+      margin-bottom: -20px;
+    }
+  }
+
+.edutitle{
+    font-weight: bold;
+    font-family: 'Kanit';
+    font-size: 22pt;
+    color: black;
+}
+
+.edusubtitle{
+  font-weight: normal;
+  font-family: 'Kanit';
+  font-size: 20px;
+  color: #59b256;
+}
+
+.edudetail{
+  font-family: 'Kanit';
+  font-size: 18pt;
+  color:blueviolet;
+}
+
+.body{
+  font-size: 12pt;
+}
