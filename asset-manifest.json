@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-website/static/css/main.f4162e51.css",
-    "main.js": "/Portfolio-website/static/js/main.3da18fdc.js",
+    "main.js": "/Portfolio-website/static/js/main.3d973538.js",
     "static/js/787.9b9c0edf.chunk.js": "/Portfolio-website/static/js/787.9b9c0edf.chunk.js",
     "static/media/introo.jpg": "/Portfolio-website/static/media/introo.e70a280f0e403946ba87.jpg",
     "static/media/h1.png": "/Portfolio-website/static/media/h1.20a019b924dbde336fdb.png",
@@ -11,19 +11,21 @@
     "static/media/react.png": "/Portfolio-website/static/media/react.6bcffb56bd0efaa47767.png",
     "static/media/star.png": "/Portfolio-website/static/media/star.43e3b824db6254991e85.png",
     "static/media/d4.png": "/Portfolio-website/static/media/d4.bcb3ed63873350d76abf.png",
+    "static/media/Cc.png": "/Portfolio-website/static/media/Cc.324287af23c2b6ad522c.png",
     "static/media/d2.png": "/Portfolio-website/static/media/d2.41fe11824b821220c0b0.png",
     "static/media/h2.png": "/Portfolio-website/static/media/h2.95f7fac02122496834ef.png",
     "static/media/java.png": "/Portfolio-website/static/media/java.029db7d4b814c1430763.png",
     "static/media/css.png": "/Portfolio-website/static/media/css.4e67641bb68b658d9b2b.png",
     "static/media/mail.png": "/Portfolio-website/static/media/mail.7cb28c7a3248052687f8.png",
+    "static/media/jsonn.png": "/Portfolio-website/static/media/jsonn.3b08d379e7f7b6349063.png",
     "static/media/html.png": "/Portfolio-website/static/media/html.33745eadd572612bdf11.png",
     "index.html": "/Portfolio-website/index.html",
     "main.f4162e51.css.map": "/Portfolio-website/static/css/main.f4162e51.css.map",
-    "main.3da18fdc.js.map": "/Portfolio-website/static/js/main.3da18fdc.js.map",
+    "main.3d973538.js.map": "/Portfolio-website/static/js/main.3d973538.js.map",
     "787.9b9c0edf.chunk.js.map": "/Portfolio-website/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4162e51.css",
-    "static/js/main.3da18fdc.js"
+    "static/js/main.3d973538.js"
   ]
 }
