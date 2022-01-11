@@ -4,8 +4,10 @@ import star from "../../img/star.png"
 import html from "../../img/html.png"
 import css from "../../img/css.png"
 import java from "../../img/java.png"
+import cc from "../../img/Cc.png"
 import python from "../../img/python.png"
 import re from "../../img/react.png"
+import jsonn from "../../img/jsonn.png"
 
 export default function Skills() {
     return (
@@ -66,6 +68,23 @@ export default function Skills() {
                 </div>
 
                 <div className='event'>
+                <div className='event-date'>C#</div>
+                    <img src={cc} alt="" className="html-img"></img>
+                    
+                    <span className='language'> C# </span>
+
+                    <div className='timeline-content'>
+                    เป็นภาษาโปรแกรมแบบหลายโมเดล ที่ใช้ระบบชนิดข้อมูลแบบรัดกุม (strong typing) และสนับสนุนการเขียนโปรแกรมเชิงคำสั่ง
+                    เชิงประกาศ เชิงฟังก์ชัน เชิงกระบวนการ โปรแกรมเชิงวัตถุ (แบบคลาส) และการเขียนโปรแกรมเชิงส่วนประกอบ
+                    </div>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+   
+                </div>
+
+                <div className='event'>
                 <div className='event-date'>Python</div>
                     <img src={python} alt="" className="html-img"></img>
                     
@@ -98,6 +117,23 @@ export default function Skills() {
                     <img src={star} alt="" className="html-img"></img>
                     <img src={star} alt="" className="html-img"></img>
                     <img src={star} alt="" className="html-img"></img>
+          
+                </div>
+
+                <div className='event'>
+                <div className='event-date'>JSON</div>
+                    <img src={jsonn} alt="" className="html-img"></img>
+                    
+                    <span className='language'> JSON </span>
+
+                    <div className='timeline-content'>
+                    JSON เป็น format สำหรับแลกเปลี่ยนข้อมูลของคอมพิวเตอร์
+                    </div>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+
           
                 </div>
 

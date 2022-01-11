@@ -23,15 +23,16 @@ export default function Experience() {
                     <div className='content'>
                         สำหรับ project งานกลุ่มนี้ จะเป็น web application ที่เกี่ยวกับการจองที่พักในโรงแรม และข้อมูลรายละเอียดของโรงแรม
                         โดยที่ตัวผมเองนั้น มีหน้าที่ในการออกแบบ web ในส่วนของ frontend ทั้งหมด เช่น หน้าต่างๆ แถบเมนู รายละเอียด รูปภาพ โดยใช้ภาษา HTML ในการจัดวางต่างๆ, Javascript ใน animation
-                         และ CSS ในการตกแต่ง มาใช้ในการพัฒนา
-                        เพื่อให้ได้หน้าตาและรูปแบบ web ให้เป็นไปตามที่ต้องการ และผู้ใช้สามารถใช้ได้ง่าย                     
+                        และ CSS ในการตกแต่ง มาใช้ในการพัฒนา
+                        เพื่อให้ได้หน้าตาและรูปแบบ web ให้เป็นไปตามที่ต้องการ และผู้ใช้สามารถใช้ได้ง่าย และผมก็ได้ทำในเรื่องการจัดการข้อมูลทั้งหมดใน web app อีกด้วยครับ                   
                         <br></br>
                         <br></br>
                         <img src={h1} alt="" className="h1-img"></img>
                         <br></br>
                         <br></br>
                         นอกจากนี้ ผมยังได้ทำหน้าการจองอีกด้วย ซึ่งหน้านี้จะเป็นการ input ข้อมูลลงไปในช่อง
-                        แล้วนำข้อมูลไปเชื่อมกับ backend หรือ database โดย project นี้จะใช้ Python และ Django ในการจัดการกับข้อมูลฝั่ง backend
+                        แล้วนำข้อมูลไปเชื่อมกับ backend หรือฐานข้อมูล (database) โดย project นี้จะใช้ Python, C#, RestfulAPI และ Django ในการจัดการกับข้อมูลฝั่ง backend และฐานข้อมูลที่เก็บไว้
+                        และมีการใช้ responsive design เพื่อปรับค่าต่างๆ ให้เข้ากับขนาดหน้าจออีกด้วยครับ
                         <br></br>
                         <br></br>
                         <img src={h2} alt="" className="h1-img"></img>
@@ -46,8 +47,8 @@ export default function Experience() {
                     <h2 className='title'>Software Development Process Project</h2>
                     <h2 className='subtitle'>DaisukiFigure web application </h2>
                     <div className='content'>
-                        สำหรับ project งานกลุ่มนี้ จะเป็นโปรแกรม Daisuki Figure เป็นโปรแกรมในรูปแบบของ Website Application 
-                        พัฒนาด้วยภาษา JavaScript เป็นหลัก และใช้ MERN STACK ประกอบไปด้วย mongo dB เป็นส่วนฐานข้อมูล และ expressJS, reactJS,  NodeJS
+                        สำหรับ project งานกลุ่มนี้ จะเป็นโปรแกรมชื่อว่า Daisuki Figure เป็นโปรแกรมในรูปแบบของ Website Application 
+                        พัฒนาด้วยภาษา JavaScript เป็นหลัก และใช้ MERN STACK ประกอบไปด้วย mongo dB, expressJS, reactJS, NodeJS ในการพัฒนา website
                         โดยเป็นโปรแกรมที่ออกแบบมาเป็นเว็บไซต์ในรูปแบบของ Community มีการให้ข้อมูลตัวโมเดลต่างๆ การสื่อสารการคุยแลกเปลี่ยนกัน การถามตอบ ฯลฯ         
                         <br></br>
                         <img src={d1} alt="" className="h1-img"></img>
@@ -59,20 +60,20 @@ export default function Experience() {
                         <img src={d2} alt="" className="h1-img"></img>
                         <br></br>
                         ซึ่งการออกแบบและการพัฒนาทั้งหมดนี้ ตัวผมเองก็ใช้ ReactJS ในการพัฒนาเป็นหลัก
-                        โดยมี CSS ช่วยในการตกแต่ง และ HTML ในการจัดวางต่างๆ และมีการนำข้อมูลจากฐานข้อมูลมาใช้งาน โดยเชื่อมจาก backend ด้วย MERN stack และ mongo DB
+                        โดยมี CSS ช่วยในการตกแต่ง และ HTML ในการจัดวางต่างๆ และการนำข้อมูลจากฐานข้อมูลมาใช้งาน โดยเชื่อมจากฐานข้อมูลและ backend ด้วย JSON, SQL และ mongo DB
                         ทำให้ web นี้ เกิดความน่าสนใจกับผู้ใช้ และใช้งานง่ายมากขึ้น
                         <br></br>
                         <br></br>
                         <img src={d3} alt="" className="h1-img"></img>
                         <br></br>
                         <br></br>
-                        การพัฒนาทั้งหมดนี้ ช่วยให้ผมเกิดความชำนาญเกี่ยวกับ ReactJS และ MERN Stack มากขึ้น
+                        การพัฒนาทั้งหมดนี้ ช่วยให้ผมเกิดความชำนาญเกี่ยวกับ ReactJS, OOP และ MERN Stack มากขึ้น และรู้วิธีในการจัดการกับฐานข้อมูลได้มากขึ้น
                         <br></br>
                         <br></br>
                         <img src={d4} alt="" className="h1-img"></img>
                         <br></br>
                         <br></br>
-                        นอกจากนี้ ผมยังได้ทำเกี่ยวกับการ upload รูปหรือไฟล์ขึ้นระบบและ server อีกด้วยครับ
+                        นอกจากนี้ ผมยังได้ทำเกี่ยวกับการ upload รูปหรือไฟล์ขึ้นระบบฐานข้อมูลและ server และมีการใช้ responsive design เพื่อปรับค่าต่างๆ ให้เข้ากับขนาดหน้าจออีกด้วยครับ
                         <br></br>
                     </div>
                     <br></br>
@@ -87,7 +88,7 @@ export default function Experience() {
                     <h2 className='subtitle'>Thamanoon portfolio website </h2>
                     <div className='content'>
                      website portfolio นี้ ผมได้พัฒนาโดยใช้ ReactJS เป็นหลักเช่นกัน และมีการใช้ responsive design เพื่อปรับค่าต่างๆ ให้เข้ากับขนาดหน้าจอ 
-                     การทำ portfolio ในรูปแบบเว็บไซต์ จะช่วยให้เมีเทคนิคพิเศษในการทำ web สะสมผลงาน และบันทึกประวัติตนเอง โดยลดเวลาการแก้ไขลง                    
+                     การทำ portfolio ในรูปแบบเว็บไซต์ จะช่วยให้เมีเทคนิคพิเศษในการทำ web สะสมผลงาน และบันทึกประวัติตนเอง โดยลดเวลาการแก้ไขลงครับ                    
                         <br></br>
                         
                     </div>
