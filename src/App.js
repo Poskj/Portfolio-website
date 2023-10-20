@@ -10,6 +10,7 @@ import Education from './components/education/Education';
 import Experience from './components/experience/Experience';
 import Skills from './components/skills/Skills';
 import Outro from './components/outro/Outro';
+import Contact from './components/contact/Contact';
 import {Link} from 'react-scroll';
 
 
@@ -33,9 +34,9 @@ const App = () => {
      <Preface/>
      </section>
  
-     <section id="attitude">
+     {/* <section id="attitude">
      <Vision/>
-     </section>
+     </section> */}
 
      <section id="education">
      <Education/>
@@ -47,6 +48,10 @@ const App = () => {
 
      <section id="skill">
      <Skills/>
+     </section>
+
+     <section id="contact">
+     <Contact/>
      </section>
 
      <section >

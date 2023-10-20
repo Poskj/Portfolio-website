@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 .container{
     box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.2);
-    background: rgb(239, 228, 255);
+    background: linear-gradient(#A94B08,#fd7c20);
     max-width: 1200px;
+    border-radius: 25px;
+}
+
+.workContainer{
+    box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.2);
+    background: linear-gradient(to right, #f5af7d,#f0d7c5);
+    max-width: 1200px;
+    border-radius: 25px;
 }
 
 .date{
@@ -15,11 +23,19 @@
 }
 
 .h1-img{
-   width: 80%;
+   width: 90%;
     align-items: center;
     object-fit: cover;
     position: static;
+    border-radius: 20px;
 }
+.h2-img{
+    width: 50%;
+     align-items: center;
+     object-fit: cover;
+     position: static;
+     border-radius: 20px;
+ }
 .title{
     font-weight: bold;
     font-family: 'Kanit';
@@ -36,4 +52,38 @@
 
 .content{
     font-family: 'Kanit';
+}
+
+.extitle{
+    font-weight: 900;
+    font-family: 'Kanit';
+    font-size: 22pt;
+    color: #2a1600;
+    padding-left: 1%;
+    /* padding-top: 2%; */
+}
+
+.date{
+    font-weight: 900;
+    font-family: 'Kanit';
+    font-size: 18pt;
+    color: #b43f00;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+
+.exsubtitle{
+    font-weight: 900;
+    font-family: 'Kanit';
+    font-size: 18pt;
+    color: #b43f00;
+    padding-left: 1%;
+}
+
+.excontent{
+    font-family: 'Kanit';
+    color: black;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 14pt;
 }

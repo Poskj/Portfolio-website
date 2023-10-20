@@ -3,12 +3,11 @@ import './outro.css'
 
 export default function Outro() {
     return (
-        <div className='info'>
-            <hr size="5" width="100%" color="blueviolet"></hr>
-            <br></br>
-            <span className="outroTitle">Thanks For Watching!</span>
+        <section className='container_info'>
+            <div className="titledivider"></div>
+            <h2 className="infoTitle">Thanks For Watching!</h2>
             <br></br>
             <span className="outroSubtitle">This website is best view on desktop.</span>
-        </div>
+        </section>
     )
 }

@@ -1,21 +1,24 @@
 import React from 'react'
 import './skills.css'
-import star from "../../img/star.png"
+import star from "../../img/118669.png"
 import html from "../../img/html.png"
 import css from "../../img/css.png"
 import java from "../../img/java.png"
+import javaa from "../../img/javaa.png"
 import cc from "../../img/Cc.png"
+import cpp from "../../img/cplusplus.png"
 import python from "../../img/python.png"
+import flutter from "../../img/flutter-icon.png"
 import re from "../../img/react.png"
+import angu from "../../img/angularjs.png"
 import jsonn from "../../img/jsonn.png"
 
 export default function Skills() {
     return (
-        <div className='info'>
-            <hr size="5" width="100%" color="blueviolet"></hr>
-            <br></br>
-            <br></br>
-            <span className="infoTitle">Programming Language Skills</span>
+        <section className="container_info">
+            <div className="titledivider"></div>
+            <h2 className="infoTitle">Programming Language Skills</h2>
+            
             <br></br>
             <div className="timeline-container">
                 <div className='event'>
@@ -68,6 +71,23 @@ export default function Skills() {
                 </div>
 
                 <div className='event'>
+                <div className='event-date'>C++</div>
+                    <img src={cpp} alt="" className="html-img"></img>
+                    
+                    <span className='language'> C++ </span>
+
+                    <div className='timeline-content'>
+                    เป็นภาษาโปรแกรมคอมพิวเตอร์อเนกประสงค์ มีโครงสร้างภาษาที่มีการจัดชนิดข้อมูลแบบสแตติก (statically typed) 
+                    และสนับสนุนรูปแบบการเขียนโปรแกรมที่หลากหลาย (multi-paradigm language)
+                    </div>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+   
+                </div>
+
+                <div className='event'>
                 <div className='event-date'>C#</div>
                     <img src={cc} alt="" className="html-img"></img>
                     
@@ -99,14 +119,34 @@ export default function Skills() {
                     <img src={star} alt="" className="html-img"></img>
                     <img src={star} alt="" className="html-img"></img>
                     <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
    
                 </div>
 
                 <div className='event'>
-                <div className='event-date'>React</div>
+                <div className='event-date'>Flutter</div>
+                    <img src={flutter} alt="" className="html-img"></img>
+                    
+                    <span className='language'> Flutter </span>
+
+                    <div className='timeline-content'>
+                    Flutter คือชุดพัฒนา software UI แบบ open source พัฒนาโดย google ใช้ภาษา Dart ในการพ้ฒนา 
+                    สามารถใช้พัฒนาแอปพลิเคชั่นแบบข้ามแพลตฟอร์มได้โดยใช้ codebase เดียวกัน เช่น Android,iOS, macOS, Windows, Linux เป็นต้น 
+                    โดย code มากกว่า 80% ที่เขียนสามารถใชได้กับ ทุก platform ได้โดยตรง เพราะอาจมีการปรับการทาํงานในหน้าต่างๆ ให้เหมาะสมกับแต่ละ platform ที่ต่างกัน
+                    </div>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+   
+                </div>
+
+                <div className='event'>
+                <div className='event-date'>ReactJS</div>
                     <img src={re} alt="" className="html-img"></img>
                     
-                    <span className='language'> ReactJS (stack ที่ถนัด) </span>
+                    <span className='language'> ReactJS </span>
 
                     <div className='timeline-content'>
                     React เป็น JavaScript library ที่ใช้สำหรับสร้าง user interface ที่ให้เราสามารถเขียนโค้ดในการสร้าง UI ที่มีความซับซ้อนแบ่งเป็นส่วนเล็กๆออกจากกันได้
@@ -121,13 +161,34 @@ export default function Skills() {
                 </div>
 
                 <div className='event'>
-                <div className='event-date'>JSON</div>
-                    <img src={jsonn} alt="" className="html-img"></img>
+                <div className='event-date'>AngularJS</div>
+                    <img src={angu} alt="" className="html-img"></img>
                     
-                    <span className='language'> JSON </span>
+                    <span className='language'> AngularJS </span>
 
                     <div className='timeline-content'>
-                    JSON เป็น format สำหรับแลกเปลี่ยนข้อมูลของคอมพิวเตอร์
+                    AngularJS เป็น JavaScript Framework ตัวหนึ่งที่ถูกพัฒนาขึ้นโดยทีมวิศวกรของ Google ซึ่งถ้าเทียบกับ 
+                    JavaScript Framework ตัวอื่นๆ ก็อาจจะเปรียบเทียบได้กับ jQuery โดยใช้ AngularJS ในการจัดการการแสดงผลในหน้าเว็บ 
+                    ซึ่งมีลักษณะการเขียนเป็น MVC ที่จะช่วยให้การสร้างเว็บสามารถแยกส่วนกันอย่างชัดเพื่อไม่ให้ส่งผลกระทบต่อกันมากนักหากเกิดข้อผิดพลาดขึ้น
+                    </div>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+                    <img src={star} alt="" className="html-img"></img>
+          
+                </div>
+
+                <div className='event'>
+                <div className='event-date'>Java</div>
+                    <img src={javaa} alt="" className="html-img"></img>
+                    
+                    <span className='language'> Java </span>
+
+                    <div className='timeline-content'>
+                    เป็นภาษาโปรแกรมเชิงวัตถุ (OOP) ซึ่งไม่ขึ้นกับแพลตฟอร์ม (สถาปัตยกรรม และ ระบบปฏิบัติการ)
+                    เหมาะกับการใช้ในระบบเครือข่าย พร้อมมีไลบรารีสนับสนุน
+                    และเรียกใช้งานจากระยะไกลได้อย่างปลอดภัย
                     </div>
                     <img src={star} alt="" className="html-img"></img>
                     <img src={star} alt="" className="html-img"></img>
@@ -156,6 +217,8 @@ export default function Skills() {
 
             </div>
             
-        </div>
+        
+        </section>
+        
     )
 }

@@ -1,85 +1,70 @@
 import "./about.css"
 import mail from "../../img/mail.png"
+import mobile from "../../img/mobile.png"
+import address from "../../img/address.png"
+import birthdate from "../../img/birth.png"
+import fullname from "../../img/name.png"
+
 
 const About = () => {
     return (
         
-        <div className="info">
-            <hr size="5" width="100%" color="blueviolet"></hr>
-            <br></br>
-            <br></br>
-            <span className="infoTitle">Personal Information</span>
-            <div className="Form">
-                <div className="left">
-            <span>&#11044; </span><label className="head">Name (ชื่อจริง) </label>
-                <br></br>
-            <span className="body">Thamanoon (ธรรมนูญ)</span>  
-                <br></br>
-                <br></br>
-            <span>&#11044; </span><label className="head">LastName (นามสกุล) </label>
-                 <br></br>
-            <span className="body">Kitlertphairoj (กิจเลิศไพโรจน์) </span>  
-                <br></br>
-                <br></br>
-            <span>&#11044; </span><label className="head">Nickname (ชื่อเล่น) </label>
-                 <br></br>
-            <span className="body">Posh (พอช)</span>  
-                <br></br>
-                <br></br>    
-            <span>&#11044; </span><label className="head">Date of birth</label>
-                 <br></br>
-            <span className="body">10 December 2000</span>  
-                <br></br>
-                <br></br> 
-
-            <span>&#11044; </span><label className="head">Address (ที่อยู่) </label>
-                 <br></br>
-            <span className="body">51/25 ถนนเฉลิมพระเกียรติ์ ร.9 ซอย 15 แขวงหนองบอน เขตประเวศ กรุงเทพฯ 10250 </span>  
-                <br></br>
-                <br></br> 
-                </div>
-                <div className="right">
-            <span>&#11044; </span><label className="head">Phone No (เบอร์มือถือ) </label>
-                 <br></br>
-            <span className="body">062-6593924 </span>  
-                <br></br>
-                <br></br> 
-
-            <span>&#11044;</span><label className="head">E-mail </label>
-                 <br></br>
- 
-            <span className="body">posh.thammanoon@gmail.com </span>  
-                <br></br>
-                <br></br> 
-
-            <span>&#11044; </span><label className="head">Facebook </label>
-                 <br></br>
-            <span className="body">Thammanoon Kitlertphairoj</span>  
-                <br></br>
-                <br></br>     
-
-            <span>&#11044; </span><label className="head">Line ID </label>
-                 <br></br>
-            <span className="body">poshy1012 </span>  
-                <br></br>
-                <br></br> 
-                
-            <span>&#11044; </span><label className="head">My interests </label>
-                 <br></br>
-            <span className="body">- Keep practicing on Web Development</span>  
-                <br></br>
-            <span className="body">- create and design web application</span>     
-                <br></br>  
-            <span className="body">- learning new web technology</span>     
-                <br></br>          
-            <span className="body">- testing and debugging frontend part </span>     
-                <br></br>   
-            <span className="body">- New idea about web design patterns </span>     
-                <br></br>    
-                </div>  
+        <section className="container_info">
+            <div className="titledivider"></div>
+            <h2 className="infoTitle">Personal Information</h2>
+            <div className="aboutcontent">
+                <ul className="aboutItems">
+                <li className="aboutItem">
+                        <img src={fullname} alt="mobile" className="icon"/>
+                        <div className="aboutItemText">
+                            <h3 className="hh">Name (ชื่อจริง)</h3>
+                            <p>Thamanoon Kitlertphairoj</p>
+                            <p>ธรรมนูญ กิจเลิศไพโรจน์</p>
+                        </div>
+                </li>
+                <li className="aboutItem">
+                        <img src={fullname} alt="mail" className="icon"/>
+                        <div className="aboutItemText">
+                            <h3 className="hh">Nickname (ชื่อเล่น)</h3>
+                            <p>Posh (พอช)</p>
+                        </div>
+                    </li>
+                    <li className="aboutItem">
+                        <img src={mail} alt="mail" className="icon"/>
+                        <div className="aboutItemText">
+                            <h3 className="hh">Address (ที่อยู่)</h3>
+                            <p>51/25 ถนนเฉลิมพระเกียรติ์ ร.9 ซอย 15 แขวงหนองบอน เขตประเวศ กรุงเทพฯ 10250</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul className="aboutItems">
+                    <li className="aboutItem">
+                        <img src={birthdate} alt="mobile" className="icon"/>
+                        <div className="aboutItemText">
+                            <h3 className="hh">Date of Birth </h3>
+                            <p>10 December 2000</p>
+                        </div>
+                    </li>
+                    <li className="aboutItem">
+                        <img src={mail} alt="mail" className="icon"/>
+                        <div className="aboutItemText">
+                            <h3 className="hh">E-mail</h3>
+                            <p>posh.thammanoon@gmail.com</p>
+                        </div>
+                    </li>
+                    <li className="aboutItem">
+                        <img src={mobile} alt="mobile" className="icon"/>
+                        <div className="aboutItemText">
+                            <h3 className="hh">Phone No. (เบอร์มือถือ)</h3>
+                            <p>0626593924</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
+            
+           
                      
-        </div>
+        </section>
     )
 }
 

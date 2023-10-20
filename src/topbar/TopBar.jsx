@@ -5,6 +5,7 @@ import './topbar.css'
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  const [menuOpen, setMenuOpen] = useState(false)
 
 
   const toggleNav = () => {
@@ -27,34 +28,63 @@ export default function Navbar() {
 
   return (
     <nav>
-      {(toggleMenu || screenWidth > 500) && (
-      <ul className="list">
-           <Link to='intro' smooth={true} className='items'>
+     <Link to='intro' smooth={true} className='title'>
+                Portfolio Website
+           </Link>
+           <div className='menu' onClick={() => {
+               setMenuOpen(!menuOpen)
+           }}>
+          <span></span>
+          <span></span>
+          <span></span>
+           </div>
+      
+      <ul className={menuOpen ? "open" : ""}> 
+          <li>
+          <Link to='intro' smooth={true} >
                 Intro
            </Link>
-           <Link to='about' smooth={true} className='items'>
+          </li>
+          <li>
+          <Link to='about' smooth={true} >
                 Information
            </Link>
-           <Link to='preface' smooth={true} className='items'>
+          </li> 
+          <li>
+          <Link to='preface' smooth={true} >
                 Preface
            </Link>
-           <Link to='attitude' smooth={true} className='items'>
+          </li>
+          {/* <li>
+          <Link to='attitude' smooth={true} >
                 Attitude
            </Link>
-           <Link to='education' smooth={true} className='items'>
+          </li> */}
+           <li>
+           <Link to='education' smooth={true} >
                 Education
            </Link>
-           <Link to='experience' smooth={true} className='items'>
+           </li>   
+          <li>
+          <Link to='experience' smooth={true} >
                 Experience
            </Link>
-           <Link to='skill' smooth={true} className='items'>
+          </li>
+          <li>
+          <Link to='skill' smooth={true} >
                 Skills
            </Link>
+          </li> 
+          <li>
+          <Link to='contact' smooth={true} >
+                Contact
+           </Link>
+          </li> 
 
     </ul>
-      )}
+      
 
-      <button onClick={toggleNav} className="btn">menu</button>
+      
     </nav>
   )
 }

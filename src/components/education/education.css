@@ -3,7 +3,7 @@
     font-family: 'Kanit';
     max-width: 800px;
     margin: 0 auto;
-    border-left: 4px solid blueviolet;
+    border-left: 12px solid rgb(226, 147, 43);
     padding-left: 25px;
 }
 
@@ -23,17 +23,17 @@
     cursor: pointer;
     position: relative;
     transition: all 500ms;
-    background: rgb(239, 228, 255);
+    background: rgb(255, 232, 225);
     z-index: 900;
 }
 
 .timeline-container .event::before {
     content: "";
-    width: 14px;
-    height: 14px;
+    width: 30px;
+    height: 30px;
     border: 2px solid rgb(0, 0, 0);
     position: absolute;
-    left: -36px;
+    left: -47px;
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
@@ -52,13 +52,15 @@
 
 .timeline-container .event .event-date {
     position: absolute;
-    left: -95px;
+    left: -160px;
     top: 50%;
     transform: translateY(-50%);
+    font-size: 24px;
     font-weight: bold;
+    align-items: end;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     .timeline-container {
       max-width: 100%;
       margin-left: 8px;
@@ -74,14 +76,19 @@
     font-weight: bold;
     font-family: 'Kanit';
     font-size: 22pt;
-    color: black;
+    color: #F6F5EC;
+    padding-left: 2%;
+    padding-top: 2%;
 }
 
-.edusubtitle{
+.subjecttitle{
   font-weight: normal;
   font-family: 'Kanit';
-  font-size: 20px;
-  color: #59b256;
+  font-size: 26px;
+  color: #F6F5EC;
+  padding-left: 1%;
+  padding-top: 2%;
+  
 }
 
 .edudetail{
@@ -90,6 +97,68 @@
   color:blueviolet;
 }
 
-.body{
-  font-size: 12pt;
+.subjectbody{
+  
+  font-size: 14pt;
+  font-family: 'Kanit';
+  color: #F6F5EC;
 }
+
+.educationItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 5%;
+
+  
+}
+
+.educationItemText{
+  padding-left: 20px;
+}
+
+.educationItem h3 {
+  color:#F6F5EC;
+  font-family: 'Kanit';
+  font-size: 30px;
+  font-weight: 1200;
+}
+
+.educationItem h4 {
+  color:#F6F5EC;
+  font-family: 'Kanit';
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.educationItem p {
+  color: #F6F5EC;
+  font-family: 'Kanit';
+  font-size: 18px;
+}
+
+.schoolicon{
+  width: 150px;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #F6F5EC;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width: 50%;
+}
+
