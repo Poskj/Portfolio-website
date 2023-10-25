@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-website/static/css/main.de813a88.css",
-    "main.js": "/Portfolio-website/static/js/main.5e82b257.js",
+    "main.css": "/Portfolio-website/static/css/main.b5a4ba7b.css",
+    "main.js": "/Portfolio-website/static/js/main.f837825c.js",
     "static/js/787.9b9c0edf.chunk.js": "/Portfolio-website/static/js/787.9b9c0edf.chunk.js",
     "static/media/transcript_english.jpg": "/Portfolio-website/static/media/transcript_english.0390e501e2da78ea7253.jpg",
     "static/media/transcript_thai.jpg": "/Portfolio-website/static/media/transcript_thai.d7999019f8adb4888014.jpg",
@@ -50,12 +50,12 @@
     "static/media/cropped-swrlogo.png": "/Portfolio-website/static/media/cropped-swrlogo.b82da802758174365efa.png",
     "static/media/118669.png": "/Portfolio-website/static/media/118669.c874d954ba85cbc2e9da.png",
     "index.html": "/Portfolio-website/index.html",
-    "main.de813a88.css.map": "/Portfolio-website/static/css/main.de813a88.css.map",
-    "main.5e82b257.js.map": "/Portfolio-website/static/js/main.5e82b257.js.map",
+    "main.b5a4ba7b.css.map": "/Portfolio-website/static/css/main.b5a4ba7b.css.map",
+    "main.f837825c.js.map": "/Portfolio-website/static/js/main.f837825c.js.map",
     "787.9b9c0edf.chunk.js.map": "/Portfolio-website/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de813a88.css",
-    "static/js/main.5e82b257.js"
+    "static/css/main.b5a4ba7b.css",
+    "static/js/main.f837825c.js"
   ]
 }
