@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-website/static/css/main.4f9813e8.css",
-    "main.js": "/Portfolio-website/static/js/main.594b9489.js",
+    "main.js": "/Portfolio-website/static/js/main.be7fe5ed.js",
     "static/js/787.9b9c0edf.chunk.js": "/Portfolio-website/static/js/787.9b9c0edf.chunk.js",
     "static/media/transcript_english.jpg": "/Portfolio-website/static/media/transcript_english.0390e501e2da78ea7253.jpg",
     "static/media/transcript_thai.jpg": "/Portfolio-website/static/media/transcript_thai.d7999019f8adb4888014.jpg",
@@ -19,7 +19,6 @@
     "static/media/d3.png": "/Portfolio-website/static/media/d3.38de6b6f5766face1786.png",
     "static/media/kmitl.png": "/Portfolio-website/static/media/kmitl.e71b9fd83292103fa8fb.png",
     "static/media/pj5.png": "/Portfolio-website/static/media/pj5.a8a9ea9008ae35b28e73.png",
-    "static/media/react.png": "/Portfolio-website/static/media/react.6bcffb56bd0efaa47767.png",
     "static/media/AI_Machine.jpg": "/Portfolio-website/static/media/AI_Machine.471131b53821b60269cd.jpg",
     "static/media/AI_Deep.jpg": "/Portfolio-website/static/media/AI_Deep.269b683427c26f0a85ae.jpg",
     "static/media/skf1.png": "/Portfolio-website/static/media/skf1.47ff8554e0550fcb4f05.png",
@@ -30,35 +29,25 @@
     "static/media/d4.png": "/Portfolio-website/static/media/d4.bcb3ed63873350d76abf.png",
     "static/media/skf2.png": "/Portfolio-website/static/media/skf2.017193148110258a82a1.png",
     "static/media/skf3.png": "/Portfolio-website/static/media/skf3.ece0036ca7d9325dd300.png",
-    "static/media/flutter-icon.png": "/Portfolio-website/static/media/flutter-icon.ae7f97aae26959fefbe7.png",
     "static/media/blog3.png": "/Portfolio-website/static/media/blog3.37acdfb9b9de312d1ecd.png",
-    "static/media/Cc.png": "/Portfolio-website/static/media/Cc.324287af23c2b6ad522c.png",
     "static/media/d2.png": "/Portfolio-website/static/media/d2.41fe11824b821220c0b0.png",
     "static/media/h2.png": "/Portfolio-website/static/media/h2.95f7fac02122496834ef.png",
-    "static/media/java.png": "/Portfolio-website/static/media/java.029db7d4b814c1430763.png",
-    "static/media/css.png": "/Portfolio-website/static/media/css.4e67641bb68b658d9b2b.png",
-    "static/media/cplusplus.png": "/Portfolio-website/static/media/cplusplus.3f8430b31b0960aae7e0.png",
     "static/media/mail.png": "/Portfolio-website/static/media/mail.7cb28c7a3248052687f8.png",
     "static/media/Line_logo.png": "/Portfolio-website/static/media/Line_logo.67827b44dd43fca756f0.png",
-    "static/media/angularjs.png": "/Portfolio-website/static/media/angularjs.a846af3302c804dd7386.png",
-    "static/media/javaa.png": "/Portfolio-website/static/media/javaa.ddf8676bd569fe01ab44.png",
     "static/media/facebook.png": "/Portfolio-website/static/media/facebook.596a59dc33871ba9ec06.png",
     "static/media/address.png": "/Portfolio-website/static/media/address.6e4cd2a59185ad769622.png",
     "static/media/Gmail_icon.png": "/Portfolio-website/static/media/Gmail_icon.06e0da47ea5e2e9b8c64.png",
-    "static/media/jsonn.png": "/Portfolio-website/static/media/jsonn.3b08d379e7f7b6349063.png",
     "static/media/mobile.png": "/Portfolio-website/static/media/mobile.dcc6192b19dc21271d20.png",
-    "static/media/html.png": "/Portfolio-website/static/media/html.33745eadd572612bdf11.png",
     "static/media/name.png": "/Portfolio-website/static/media/name.ece81ce39455652faa09.png",
     "static/media/birth.png": "/Portfolio-website/static/media/birth.1d47094b2cf697bbaf42.png",
     "static/media/cropped-swrlogo.png": "/Portfolio-website/static/media/cropped-swrlogo.b82da802758174365efa.png",
-    "static/media/118669.png": "/Portfolio-website/static/media/118669.c874d954ba85cbc2e9da.png",
     "index.html": "/Portfolio-website/index.html",
     "main.4f9813e8.css.map": "/Portfolio-website/static/css/main.4f9813e8.css.map",
-    "main.594b9489.js.map": "/Portfolio-website/static/js/main.594b9489.js.map",
+    "main.be7fe5ed.js.map": "/Portfolio-website/static/js/main.be7fe5ed.js.map",
     "787.9b9c0edf.chunk.js.map": "/Portfolio-website/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f9813e8.css",
-    "static/js/main.594b9489.js"
+    "static/js/main.be7fe5ed.js"
   ]
 }
